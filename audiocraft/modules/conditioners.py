@@ -409,8 +409,8 @@ class T5Conditioner(TextConditioner):
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
             try:
-                self.t5_tokenizer = T5Tokenizer.from_pretrained('/mnt/data0/workspace/zhd/v2m/t5-base')
-                t5 = T5EncoderModel.from_pretrained('/mnt/data0/workspace/zhd/v2m/t5-base').train(mode=finetune)
+                self.t5_tokenizer = T5Tokenizer.from_pretrained('./t5-base')
+                t5 = T5EncoderModel.from_pretrained('./t5-base').train(mode=finetune)
             finally:
                 logging.disable(previous_level)
         if finetune:

@@ -1,0 +1,14 @@
+torch==2.1.0
+torchaudio==2.1.0
+omegaconf
+numpy==1.23.5
+transformers==4.35.0
+einops
+flashy==0.0.2
+xformers==0.0.22.post7
+num2words
+spacy
+librosa==0.8.0
+av==16.0.1
+julius
+sentencepiece==0.1.99
