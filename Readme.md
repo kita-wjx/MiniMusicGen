@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## 🎯 代码运行
 - 文生音乐
     ```bash
-    # 可以在文件里面调整采用的音乐生成模型（4个版本），生成时长，多个输入提示词
+    # 可以在文件里面调整采用的音乐生成模型（4个版本，可以去官网下载对应的state_dict.bin和compression_state_dict.bin文件），生成时长，多个输入提示词
     python t2m.py
     ```
 - 音乐编解码
