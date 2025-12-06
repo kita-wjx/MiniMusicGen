@@ -3,7 +3,7 @@
 ## 🛠️ 环境安装
 
 ```bash
-conda create --name musicgen python=3.10.19
+conda create --name musicgen python=3.10.11
 conda activate musicgen
 pip install -r requirements.txt
 ```

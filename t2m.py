@@ -10,7 +10,7 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:128"
 # 设备选择，没有GPU会用CPU
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-# 导入模型，这里“./musicgen-small”可替换为其他预训练模型路径，比如“./musicgen-medium”或“./musicgen-melody”
+# 导入模型，这里“./musicgen-small”可替换为其他预训练模型路径，比如“./musicgen-medium”或“./musicgen-melody”或“./musicgen-large”
 model = musicgen.MusicGen.get_pretrained('./musicgen-small', device=device)
 
 # 这里调整生成时长
