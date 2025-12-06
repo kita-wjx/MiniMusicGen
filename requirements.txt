@@ -12,3 +12,4 @@ librosa==0.8.0
 av==16.0.1
 julius
 sentencepiece==0.1.99
+demucs
